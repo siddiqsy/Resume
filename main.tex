@@ -1,0 +1,33 @@
+\documentclass[letterpaper, 11pt]{article}
+\usepackage{geometry}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fontspec}
+\usepackage{fontawesome}
+\usepackage{bbding}
+\usepackage{import}
+\usepackage{emoji}
+\usepackage{fontawesome}
+\usepackage{xcolor}
+
+\pagestyle{empty}
+\geometry{margin=0.5in}
+\setlength\parindent{9pt}
+\setlist{nosep}
+\renewcommand\labelitemi{--}
+
+\definecolor{highlight}{RGB}{0,0,0}
+
+\newcommand{\github}{\textcolor{rgb:red,110;green,84;blue,148}{\faGithubSquare}}
+\newcommand{\linkedin}{\textcolor{rgb:red,6;green,108;blue,170}{\faLinkedinSquare}}
+\newcommand{\name}[1]{\begin{center}\section*{\LARGE \color{highlight} #1}\vspace{-0.72cm}\end{center}}
+\newcommand{\topinfo}[1]{\begin{center}\vspace{-0.1cm}#1\vspace{-0.3cm}\end{center}}
+\newcommand{\resumesection}[1]{\vspace{-0.5cm}\section*{\color{highlight}#1}\vspace{-0.2cm}\hrule\vspace{0.2cm}}
+
+\renewcommand{\familydefault}{\sfdefault}
+\begin{document}
+\name{Peter Zhang} 
+\topinfo{\href{mailto:petez@berkeley.edu}{\emoji{open-mailbox-with-raised-flag}  petez@berkeley.edu} \emoji{phone} (240) 994-2204 \ \href{https://www.peterzha.ng}{\emoji{desktop-computer} peterzha.ng}  \href{https://github.com/petezh}{\github\ petezh} \href{https://www.linkedin.com/in/pjz/}{\linkedin\ pjz}}
+\end{document}

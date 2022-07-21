@@ -1,0 +1,175 @@
+%-------------------------
+% Resume in Latex
+% Author : Siddiq Syed
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-12pt}]
+
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    {\Huge \scshape SIDDIQ SYED} \\ \vspace{1pt}
+    California,US \\ \vspace{1pt}
+    \small \href{tel:+16462882436}{ \raisebox{-0.1\height}\faPhone\ \underline{+1-6462882436} ~} \href{mailto:siddiq.one@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{siddiq.one@gmail.com}} ~ 
+    \href{https://linkedin.com/in/siddiq-syed}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{siddiq-syed}}  ~
+    \href{https://github.com/siddiqsy}{\raisebox{-0.2\height}\faGithub\ \underline{siddiqsy}} ~
+    \href{https://leetcode.com/Siddiq-Syed/}{\raisebox{-0.2\height}\faPoll\ \underline{Siddiq-Syed}} ~
+    \vspace{-3pt}
+\end{center}
+
+%-----------EXPERIENCE-----------
+\section{PROFESSIONAL EXPERIENCE}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Smiota Inc. \href{https://linkedin.com/in/siddiq-syed}{\raisebox{-0.1\height}\faExternalLink }}{06 2020 -- 06 2022} 
+      {\underline{Software Engineer}}{Fremont, CA}
+      \resumeItemListStart
+        \resumeItem{\normalsize{Delivered highly maintainable code with optimization features like runtime memory enhancements, parallel processing, advanced data structures and simplifying complex parameterized API calls involving efficient run times of tests.}}
+        \resumeItem{\normalsize{Integrating Java Selenium and Rest Assured libraries for Angular web application testing involving API, UI and Data Validation tests was designed and developed inspired by page object model framework and object-oriented programming.}}
+        \resumeItem{\normalsize{Contributed to analytics and visualization of data metrics reports for the automated test suites to be published within the team for Analysis and Quality Assurance. }}
+        \resumeItem{\normalsize{Exhibited strong technical aptitude developing tests and configuring in Jenkins as well as Azure Pipelines part of Automation testing coverage of 40\% web application.  }}
+        \resumeItem{\normalsize{Accomplished cultivating improvements in test coverage and reliability through continuous, scheduled and informed testing and issue reporting. }}
+        \resumeItem{\normalsize{Conducted regression analysis with bug fixes, submitting the results within the team to enhance progress and adapt predictive approaches. }}
+        \resumeItem{\normalsize{Mentored junior hires familiarized with product, processes, and technologies used. }}
+    \resumeItemListEnd
+  
+    \resumeSubheading
+      {TCS Kohinoor Park \href{https://linkedin.com/in/siddiq-syed}{\raisebox{-0.1\height}\faExternalLink }}{06 2016 -- 08 2018} 
+      {\underline{Systems Engineer}}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{\normalsize{Efficiently queried data from Oracle 11g databases for ad-hoc requests within a large-scale organization expediting 50\% of the delivery time.}}
+        \resumeItem{\normalsize{Interacted with vendors and clients to identify data discrepancy problems and process resolutions within hours. }}
+        \resumeItem{\normalsize{Resolved issues and escalated problems with knowledgeable support and quality services. }}
+      \resumeItemListEnd  
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+\vspace{4pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University At Buffalo - SUNY}{08 2018 -- 02 2020}
+      {Master of Science - Engineering Sciences (Data Sciences)}{Buffalo, NY}
+  \resumeSubHeadingListEnd
+  
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {SASTRA University}{07 2012 -- 05 2016}
+      {Bachelor of Technology - Electrical and Electronics Engineering }{Thanjavur, India}
+  \resumeSubHeadingListEnd
+  
+%-----------PROGRAMMING SKILLS-----------
+\section{SKILLS}
+\vspace{4pt}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Technical:}}{ \normalsize{Java, Python, SQL, R, HTML, CSS, JavaScript}} \\
+     \textbf{\normalsize{Tools:}}{ \normalsize{Eclipse, MySQL, Jupyter Notebooks, Postman, MS Office, Azure DevOps, Jenkins}} \\
+     \textbf{\normalsize{Frameworks:}}{\normalsize{Spring, Microservices, Angular, Git, Hibernate}} \\
+    }}
+ \end{itemize}
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{-2pt}
+    \resumeSubHeadingListStart
+       \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{Research – SUNY Research}}} \href{https://linkedin.com/in/siddiq-syed}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Python, Machine Learning}}}{05 2019 -- 12 2019}
+          \resumeItemListStart
+            \resumeItem{\normalsize{Provide strategic research, analytics, and data science project planning focused on modeling and creating networks that analyze influenza spread trends from 10GB of Twitter Data, which is four years of historical data accessed utilizing Python.}}
+            \resumeItem{\normalsize{Designed time series analysis leveraging machine learning models to predict the month and week more likely for influenza spread. }}
+          \resumeItemListEnd 
+          \vspace{-2pt}
+    \resumeSubHeadingListEnd
+\vspace{-2pt}
+
+\end{document}
